@@ -17,7 +17,6 @@ Designed with scalability and maintainability in mind, this application is also 
   - [System Context](#system-context)
   - [Request Lifecycle](#request-lifecycle)
   - [DevOps Toolchain](#devops-toolchain)
-- [Live Deployment](#live-deployment)
 - [Key Technologies](#key-technologies)
 - [User Interface](#user-interface)
 - [API Endpoints](#api-endpoints)
@@ -156,17 +155,7 @@ flowchart LR
     Images --> Cluster
     Infra --> Cluster
 ```
-## Live Deployment
 
-The Employee Management System full-stack app is deployed with Vercel and is live at [https://employee-manage-app.vercel.app](https://employee-manage-app.vercel.app) for you to explore and interact with the application.
-
-The backend is also deployed with Render and is available at [https://employee-management-app.onrender.com](https://employee-management-app-gdm5.onrender.com/). You can access the API endpoints directly from the browser at the root (`/`) endpoint as we've set up the Swagger UI documentation for easy testing.
-
-> [!IMPORTANT]
-> **Note:** The backend API may spin down due to inactivity, so you may need to wait for up to 2 minutes for the API to start up again. Feel free to test the API endpoints and explore the application. Or, you can run the backend locally and connect it to the frontend for a more seamless experience.
-
-> [!NOTE]
-> **Additional Note:** It may take a while to fetch the data and process your requests, as Render's free tier has VERY limited resources (only 512MB RAM and 0.1 CPU).
 
 ## Key Technologies
 
@@ -200,7 +189,7 @@ The backend is also deployed with Render and is available at [https://employee-m
 
 The frontend of the Employee Management System provides a user-friendly interface for managing employees and departments. It includes features for viewing, adding, editing, and deleting employees and departments. The app also includes visualizations for employee metrics such as growth over time and distribution by age range.
 
-The frontend is also live at [https://employee-management-fullstack-app.vercel.app](https://employee-management-fullstack-app.vercel.app) for you to explore and interact with the application. Note that the backend is not hosted, so the API calls will not work and the data will not be present.
+
 
 **Landing Page:**
 
